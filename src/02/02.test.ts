@@ -8,6 +8,7 @@ type AddressType = {
 }
 
 type HouseType = {
+    id?: number
     buildedAt: number
     repaired: boolean
     address: AddressType
@@ -22,6 +23,7 @@ type governmentBuildingsType = {
 }
 
 type CityType = {
+    
     title: string
     houses: HouseType[]
     governmentBuildings: governmentBuildingsType[]
